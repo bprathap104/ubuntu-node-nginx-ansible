@@ -19,7 +19,7 @@
     keymetrics_var_files: ["./keymetrics/vars.yml", "./keymetrics/vars.default.yml"]
 
   roles:
-    - franklinkim.nodejs
+    - kbrebanov.nodejs
 
   pre_tasks:
     - name: create apps group

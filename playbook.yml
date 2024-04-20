@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  sudo: yes
+  become: yes
   vars:
     # list of apps to be managed by pm2
     pm2_apps:
